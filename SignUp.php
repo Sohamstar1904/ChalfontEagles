@@ -25,7 +25,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="faq.html">FAQ</a></li>
-						<li><a href="SignUp.html">Register NOW</a></li>
+						<li><a href="SignUp.php">Register NOW</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
 				</nav>
@@ -34,14 +34,6 @@
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
-			<section id="main" class="wrapper">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
 
 <?php
 	if (isset($_POST["submit"])) {
@@ -82,6 +74,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 }
 	}
 ?>
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Generic</h2>
+						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+					</header>
+
+
 
 <form class="form-horizontal" role="form" method="post" action="SignUp.php">
 	<div class="form-group">
