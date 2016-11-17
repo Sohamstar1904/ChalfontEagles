@@ -557,7 +557,8 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/sorttable.js"></script>
 			<script>
-			sorttable.innerSortFunction.apply(document.getElementById('wins'), []);
+				var myTH = document.getElementsByTagName("wins")[0];
+				sorttable.innerSortFunction.apply(myTH, []);
 			</script>
 		
 	</body>
