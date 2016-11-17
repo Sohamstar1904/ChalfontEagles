@@ -548,8 +548,6 @@
 <!-- 						<li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
 					</ul>
 				</div>
-				<button onclick="sorttable.innerSortFunction.apply(document.getElementById('wins'), [])">Sort
-  			by 'Car' column</button>
 			</footer>
 
 		<!-- Scripts -->
@@ -559,7 +557,10 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/sorttable.js"></script>
 			<script>
-			sorttable.innerSortFunction.apply(document.getElementById('wins'), []);
+			window.onload = function(){
+				sorttable.innerSortFunction.apply(document.getElementById('wins'), []);
+				}
+
 			</script>
 		
 	</body>
