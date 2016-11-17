@@ -401,7 +401,7 @@
 											<th>Team Name</th>
 											<th id="wins">Wins</th>
 											<th>Losses</th>
-											<th>Ranking Points</th>
+											<th id="points">Ranking Points</th>
 											<th>Default Points</th>
 										</tr>
 									</thead>
@@ -558,6 +558,7 @@
 			<script src="assets/js/sorttable.js"></script>
 			<script>
 			window.onload = function(){
+				sorttable.innerSortFunction.apply(document.getElementById('points'), []);
 				sorttable.innerSortFunction.apply(document.getElementById('wins'), []);
 				}
 
