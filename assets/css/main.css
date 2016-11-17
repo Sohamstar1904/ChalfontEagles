@@ -2687,6 +2687,9 @@
 		table tfoot {
 			border-top: solid 2px rgba(144, 144, 144, 0.25);
 		}
+		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+		}
 
 		table.alt {
 			border-collapse: separate;
