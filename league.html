@@ -399,7 +399,7 @@
 										<tr>
 											<th>Team Identifier</th>
 											<th>Team Name</th>
-											<th class=" sorttable_sorted_reverse">"Wins" <span id="sorttable_sortrevind">&nbsp;▴</span></th>
+											<th id="wins">Wins</th>
 											<th>Losses</th>
 											<th>Ranking Points</th>
 											<th>Default Points</th>
@@ -556,5 +556,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/sorttable.js"></script>
+			<script>
+			sorttable.innerSortFunction.apply(document.getElementById('wins'), []);
+			</script>
+		
 	</body>
 </html>
