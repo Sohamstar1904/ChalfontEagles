@@ -215,6 +215,13 @@
 
 	}
 
+.custom_center {
+    
+    width: 50%;
+    margin: auto;
+    align-content: center;
+}
+
 /* Grid */
 
 	.row {
