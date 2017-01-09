@@ -3299,6 +3299,8 @@
 
   .round .game-spacer{
     flex-grow:1;
+    font-style:italic;
+    font-size: 50%;
   }
 
 /*
@@ -3333,6 +3335,7 @@ li.game{
   }
   li.game-spacer-empty{ 
     min-height:40px;
+    font-weight: bold;
   }
 
   li.game-bottom{ 
