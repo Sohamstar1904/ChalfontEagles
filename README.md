@@ -1,6 +1,6 @@
 # University of Toronto Badminton Club Webpage
 
-This is the University of Toronto Badminton Club Webpage Site. Please contact Aaron Pan for more details.
+This is the University of Toronto Badminton Club Webpage Site. Please contact [Aaron Pan](www.AaronPan.me) for more details.
 
 
 ## Links
