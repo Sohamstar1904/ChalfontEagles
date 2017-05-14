@@ -6,7 +6,7 @@ This is the University of Toronto Badminton Club Webpage Site. Please contact [A
 ## Links
 - Website: www.UofTBadmintonClub.com
 - Facebook Page: https://www.facebook.com/uoftbadmintonclub/
-- Facebook Page: https://www.facebook.com/groups/uoftbadmintonclub/
+- Facebook Group: https://www.facebook.com/groups/uoftbadmintonclub/
 
 
 
