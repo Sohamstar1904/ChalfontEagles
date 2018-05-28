@@ -1,10 +1,12 @@
-# University of Toronto Badminton Club Webpage
+# University of Toronto Badminton Club website - OLD
 
-This is the University of Toronto Badminton Club Webpage Site. Please contact [Aaron Pan](http://panaaron.github.io) for more details.
+Please Visit: https://www.uoftbadmintonclub.com/ for the latest updates
+
+This is the University of Toronto Badminton Club website. Please contact [Aaron Pan](http://panaaron.github.io) for more details.
 
 
 ## Links
-- Website: www.UofTBadmintonClub.com
+- Website: https://www.uoftbadmintonclub.com/
 - Facebook Page: https://www.facebook.com/uoftbadmintonclub/
 - Facebook Group: https://www.facebook.com/groups/uoftbadmintonclub/
 
